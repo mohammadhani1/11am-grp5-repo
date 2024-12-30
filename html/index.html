@@ -7,35 +7,48 @@
     <link rel="stylesheet" href="/css/master.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     
+    
 </head>
 <body>
-   
     <header>
         <div id="navbar">
             <div class="logo">
-                <img src="/image/icon.png" alt="logo" width="60" height="60"><a href="http://127.0.0.1:5500/Html/Home.html">NextGoal</a>
+                <img src="/image/icon.png" alt="logo" width="60" height="60"><a href="http://127.0.0.1:5500/Html/Home.html">Next<span class="fifth-letter">G</span>oal</a>
+            </div>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+            
+            <!-- Updated nav element for toggling -->
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="#">الصفحة الرئيسية</a></li>
+                    <li><a href="#">التغذية</a></li>
+                    <li><a href="#">أماكن الأندية</a></li>
+                </ul>
+            </nav>
+            <button >تسجيل الدخول</button>
         </div>
+        <div class="content">
+            <div class="video-wrapper">
+                <!-- Background video -->
+                <video autoplay loop muted playsinline class="back-vid">
+                    <source src="/image/Football Stadium.mp4" type="video/mp4">
+                    <source src="/image/Football Stadium.webm" type="video/webm">
+                    <source src="/image/Football Stadium.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+            
+                <!-- Semi-transparent overlay -->
+                <div class="video-overlay"></div>
+            </div>
         
-        <nav>
-            <ul>
-                <li><a href="#">الصفحة الرئيسية</a></li>
-                <li><a href="#">التغذية</a></li>
-                <li><a href="#">أماكن الأندية</a></li>
-            </ul>
-
-        </nav>
-        <button>تسجيل الدخول</button>
+            <!-- Content on top of the video -->
+            <div class="text-content">
+                <h1>NextGoal</h1>
+                <p>ALL SPORTS, ONE PLACE</p>
+            </div>
         </div>
-        <div class="contant">
-            <h1>NextGoal</h1>
-            <p> ALL SPORTS, ONE PLACE</p>
-        <video width="250" autoplay loop muted plays-inline class="back-vid">
-            <source src="/image/Football Stadium.mp4" type="video/mp4">
-            <source src="/image/Football Stadium.webm" type="video/webm">
-            <source src="/image/Football Stadium.ogg" type="video/ogg">
-        </video>
-    </div>
     </header>
     
+    <script src="/js/script.js"></script>
 </body>
 </html>
