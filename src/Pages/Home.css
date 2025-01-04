@@ -34,10 +34,10 @@
 }
 .heading-Sport .desc {
     font-size: 2rem;
-    border: 1px solid #ffffff; /* تحديد نوع الحدود */
-    padding: 10px 20px; /* إضافة مسافة حول النص */
-    border-radius: 5px; /* إضافة زوايا دائرية */
-    background-color: rgba(0, 0, 0, 0.5); /* تحسين الخلفية */
+    border: 1px solid #ffffff;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    background-color: rgba(0, 0, 0, 0.5); 
 }
 
 

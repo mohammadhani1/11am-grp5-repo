@@ -1,12 +1,24 @@
 
+import './App.css';
+import Heartbtn from '../src/components/Heartbtn';
+import Navbar from  './components/Navbar';
+import Home from  './Pages/Home';
+import ReactDOM from "react-dom";
+import {BrowserRouter, Route,Routes} from "react-router-dom";
+
+
 function App() {
   return (
-    <div className="App"> 
-
-  <img src = "/image.png" classname="logo" alt="logo"/>
-
-    </div>
+    <>
+    < Navbar/>
+    <Routes> 
+      <Route  path="/" element={<Home/>}/>
+    </Routes>
+    <Home />
+    <Heartbtn/>
+    
+    
+    </>
   );
 }
-
 export default App;
