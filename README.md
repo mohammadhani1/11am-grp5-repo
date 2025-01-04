@@ -1,70 +1,46 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+NEXT GOAL 🥳🎉
 
-## Available Scripts
+A sports website project can be comprehensive and aims to provide information and resources for individuals interested in sports and healthy nutrition.
 
-In the project directory, you can run:
+Main objectives 🚀❤️‍🔥 :
+-Encourage a healthy lifestyle: by combining healthy nutrition and sports activities.
+-Facilitate access to information: provide information about sports clubs, healthy nutrition, and different sports.
 
-### `npm start`
+Main Pages:
+1. Home Page:
+Main Title: "Start Your Healthy Life Journey Today!"
+Content:
+-Introduction about the site and its goals.
+-Quick links to other sections (Nutrition, Sports, Clubs).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Healthy Nutrition Page 🍱🍶:  
+Content:  
+-Articles about healthy nutrition.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. Page of Different Sports:
+Content:
+- Guide to different sports such as (football, swimming, running, bodybuilding, yoga).
+- Rules for each sport.
+- Educational videos and basic techniques.
 
-### `npm test`
+4. Sports Club Locations Page:
+Content:
+- Club locations in each city.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. Registration Page:  
+Content:  
+Register as a new user.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🏆 Inspiration and Competitive Advantages :  
+The site is distinguished by integrating nutrition and sports into one platform.  
+Providing Arabic content tailored for users in the Arab world.
 
-### `npm run eject`
+-[HOME and LOGIN Pages]
+https://www.figma.com/board/pzGc6OZPpW7ATlqwuJ5xT5/Untitled?node-id=0-1&t=eNDsdHIm0f9YEmhD-1
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-[Design of the Sports Page ]
+https://www.figma.com/board/D3X9ZRXSailxIDmdIHfcPj/Untitled?node-id=0-1&p=f&t=EOpkPsLNHVSmoykv-0
