@@ -1,8 +1,10 @@
+NEXT GOAL 🥳🎉
+
 A sports website project can be comprehensive and aims to provide information and resources for individuals interested in sports and healthy nutrition.
 
-Main objectives:
-Encourage a healthy lifestyle: by combining healthy nutrition and sports activities.
-Facilitate access to information: provide information about sports clubs, healthy nutrition, and different sports.
+Main objectives 🚀❤️‍🔥 :
+-Encourage a healthy lifestyle: by combining healthy nutrition and sports activities.
+-Facilitate access to information: provide information about sports clubs, healthy nutrition, and different sports.
 
 Main Pages:
 1. Home Page:
@@ -11,7 +13,7 @@ Content:
 -Introduction about the site and its goals.
 -Quick links to other sections (Nutrition, Sports, Clubs).
 
-2. Healthy Nutrition Page:  
+2. Healthy Nutrition Page 🍱🍶:  
 Content:  
 -Articles about healthy nutrition.
 
@@ -32,6 +34,10 @@ Register as a new user.
 
 
 
-Inspiration and Competitive Advantages:  
+🏆 Inspiration and Competitive Advantages :  
 The site is distinguished by integrating nutrition and sports into one platform.  
 Providing Arabic content tailored for users in the Arab world.
+[HOME and LOGIN Pages]
+https://www.figma.com/board/pzGc6OZPpW7ATlqwuJ5xT5/Untitled?node-id=0-1&t=eNDsdHIm0f9YEmhD-1
+[Design of the Sports Page ]
+https://www.figma.com/board/D3X9ZRXSailxIDmdIHfcPj/Untitled?node-id=0-1&p=f&t=EOpkPsLNHVSmoykv-0
