@@ -1,5 +1,6 @@
 import React from "react";
 import './Home.css'; 
+import LearnVid from "../components/LearnVid";
 function Home() {
   return (
     <>

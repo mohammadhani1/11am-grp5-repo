@@ -5,12 +5,7 @@ const Card = ({ image, title, intro, info }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
 
-  useEffect(() => {
-    console.log(`Card "${title}" is now ${isExpanded ? "expanded" : "collapsed"}`);
-  }, [isExpanded, title]);
-
-
-  const toggleExpand = () => {
+  const handleButtonClick = () => {
     setIsExpanded((prevState) => !prevState);
   };
 
@@ -28,7 +23,7 @@ const Card = ({ image, title, intro, info }) => {
           </div>
         )}
       </div>
-      <button onClick={toggleExpand} className="card-btn">
+      <button onClick={handleButtonClick} className="card-btn">
         {isExpanded ? "عرض أقل" : "عرض المزيد"}
       </button>
     </div>

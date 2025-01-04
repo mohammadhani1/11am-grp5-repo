@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Readex+Pro:wght@160..700&display=swap');
+.lovebtn{
+    font-family:  "Amiri", serif;
+    border-radius: 32px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 4px 8px;
+    background-color: #ffcdcd;
+    border-color: rgb(233, 245, 255);
+    margin: 10px;
+}
+.lovebtn:hover{
+border-color: #ff0101;
+color: #ff0101;
+}
+.loved,.loved:hover{
+    background-color: #ff0101;
+    border-color: #ff0101;
+    color: #ffffff;
+}

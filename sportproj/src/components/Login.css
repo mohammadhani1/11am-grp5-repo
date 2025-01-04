@@ -12,7 +12,7 @@
     transition: all 0.3s ease;
 }
 .Btn-nav:hover{
-    background-color: rgb(255, 214, 175);
+    background-color: rgb(255, 146, 142);
     transform: scale(1.09);
     color: #363535;
 }
