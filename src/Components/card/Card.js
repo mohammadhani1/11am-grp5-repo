@@ -4,13 +4,12 @@ import "./Card.css";
 const Card = ({ image, title, intro, info }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
-
   const handleButtonClick = () => {
     setIsExpanded((prevState) => !prevState);
   };
 
   return (
-    <div className={`card ${isExpanded ? "expanded" : ""}`}>
+    <div className={`sport-card ${isExpanded ? "expanded" : ""}`}>
       <img src={image} className="card-img-top" alt={`Image for ${title}`} />
       <div className="card-body">
         <div className="card-head">
@@ -31,4 +30,3 @@ const Card = ({ image, title, intro, info }) => {
 };
 
 export default Card;
-
