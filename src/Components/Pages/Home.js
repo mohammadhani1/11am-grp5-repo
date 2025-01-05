@@ -1,9 +1,12 @@
 import React from "react";
 import './Home.css'; 
-import LearnVid from "../components/LearnVid";
+import Navbar from '../navbar/Navbar';
+
+
 function Home() {
   return (
     <>
+    <Navbar/>
       <div className="content">
         <div className="video">
           <video
