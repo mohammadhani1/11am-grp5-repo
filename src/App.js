@@ -1,26 +1,29 @@
+import React  from "react";
 
-import './App.css';
-import Heartbtn from './components/Heartbtn';
-import Navbar from  './components/Navbar';
-import Home from  './Pages/Home';
-import ReactDOM from "react-dom";
-import {BrowserRouter, Route,Routes} from "react-router-dom";
-import Footer from './Components/Footer';
+import SearchBox from "./Components/SearchBox";
+import Sidebar from "./Components/Sidebar";
+import Content from "./Components/Content";
+
+
 
 
 function App() {
   return (
-    <>
-    < Navbar/>
-    <Routes> 
-      <Route  path="/" element={<Home/>}/>
-    </Routes>
-    <Home />
-    <Heartbtn/>
-    <Footer/>
-    
-    
-    </>
-  );
+    <div className="App"> 
+
+  <img src = "/image.png" classname="logo" alt="logo"/>
+
+   <SearchBox/>
+  <div className="main-container">
+
+
+
+    <Sidebar />
+    <Content />
+    </div>
+    </div>
+   );
 }
+
 export default App;
+
