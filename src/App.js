@@ -6,6 +6,7 @@ import Home from  './Pages/Home';
 import ReactDOM from "react-dom";
 import {BrowserRouter, Route,Routes} from "react-router-dom";
 import Footer from './Components/Footer';
+import Nutrition from './Components/Nutrition';
 
 
 function App() {
@@ -18,8 +19,7 @@ function App() {
     <Home />
     <Heartbtn/>
     <Footer/>
-    
-    
+    <Nutrition/>
     </>
   );
 }

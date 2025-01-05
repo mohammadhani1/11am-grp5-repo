@@ -1,0 +1,47 @@
+header{
+    height: 100vh;
+    background: url("./images/photo.jpg") center center/cover no-repeat ;
+    position: relative;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.content h1{
+    font-size: 40px;
+    color:#fff ;
+}
+.content p{
+    margin: 20px 0 40px;
+    color: #fff;
+}
+
+header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0,0, 0.6);
+}
+header * {
+    z-index: 10;
+}
+
+.btn-menu{
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn-menu:hover {
+    background: #e4b95b;
+}
