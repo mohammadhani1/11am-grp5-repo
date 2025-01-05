@@ -1,76 +1,71 @@
-import Card from '../card/Card';
+import React from 'react';
 import './Food.css';
 
 function Food() {
   return (
-    <div className='container'>
+    <div className="container">
+      <div className="section">
+        <img className="section-image" src="./assets/images/foodimages/protine.jpg" alt="البروتينات" />
+        <h2>البروتينات</h2>
+        <p>البروتينات تلعب دورًا محوريًا في الرياضة والأنشطة البدنية نظرًا لدورها في بناء العضلات، إصلاح الأنسجة التالفة، وتعزيز الأداء الرياضي ..</p>
+        <a href="https://www.example.com/protein-info" target="_blank" className="read-more">قراءة المزيد</a> {/* رابط خارجي لصفحة البروتينات */}
+      </div>
 
+      <div className="section">
+        <img className="section-image" src="./assets/images/foodimages/protine2.jpg" alt="دورها في الرياضة" />
+        <h2>دورها في الرياضة</h2>
+        <p>المصادر الحيوانية: ومن الأمثلة على المصادر الحيوانية للبروتين ما يأتي: الدواجن: كالدجاج، والبط...</p>
+        <a href="https://www.example.com/protein-sport" target="_blank" className="read-more">قراءة المزيد</a> {/* رابط خارجي لصفحة دور البروتين في الرياضة */}
+      </div>
 
-        <Card 
-          image='./assets/images/foodimages/protine.jpg' 
-          title="البروتينات" 
-          intro="البروتينات تلعب دورًا محوريًا في الرياضة والأنشطة البدنية نظرًا لدورها في بناء العضلات، إصلاح الأنسجة التالفة، وتعزيز الأداء الرياضي .."
-          info="الرياضيون يحتاجون إلى كميات كافية من البروتين لدعم جهودهم التدريبية وتحقيق أهدافهم. تنقسم الأحماض الأمينيّة إلى نوعين، وهي: الأحماض الأمينية غير الأساسيّة التي يُصنّعها الجسم بنفسه، والأحماض الأمينية الأساسيّة التي لا يُمكن للجسم أن يُصنعها، إذ يجب الحصول عليها من المصادر الغذائية..."
-        />
-        <Card 
-          image='./assets/images/foodimages/protine2.jpg' 
-          title="دورها في الرياضة" 
-          intro="المصادر الحيوانية: ومن الأمثلة على المصادر الحيوانية للبروتين ما يأتي: الدواجن: كالدجاج، والبط، والتيركي..."
-          info="الدجاج المطبوخ منزوع الجلد (ما يعادل حجم راحة اليد) على 32.1 غراماً من البروتين. الأطعمة البحرية: كالسمك، والمحار..."
-        />
-        <Card 
-          image='./assets/images/foodimages/protine3.jpg' 
-          title="مصادر البروتين" 
-          intro="من المهم الحصول على البروتينات من المصادر النباتية أيضاً، وفي ما يأتي بعض الأمثلة على المجموعات النباتية..."
-          info="البقوليات: كالعدس، والفاصولياء المجففة بأنواعها، والبازلاء، والحمص..."
-        />
+      <div className="section">
+        <img className="section-image" src="./assets/images/foodimages/protine3.jpg" alt="مصادر البروتين" />
+        <h2>مصادر البروتين</h2>
+        <p>من المهم الحصول على البروتينات من المصادر النباتية أيضاً...</p>
+        <a href="https://www.example.com/protein-sources" target="_blank" className="read-more">قراءة المزيد</a> {/* رابط خارجي لصفحة مصادر البروتين */}
+      </div>
 
+      <div className="section">
+        <img className="section-image" src="./assets/images/foodimages/Carbs1.jpg" alt="الكربوهيدرات" />
+        <h2>الكربوهيدرات</h2>
+        <p>هي المصدر المفضل للجسم للحصول على الطاقة...</p>
+        <a href="https://www.example.com/carbs-info" target="_blank" className="read-more">قراءة المزيد</a> {/* رابط خارجي للكربوهيدرات */}
+      </div>
 
+      <div className="section">
+        <img className="section-image" src="./assets/images/foodimages/Carbs2.jpg" alt="أهمية الكربوهيدرات" />
+        <h2>أهمية الكربوهيدرات</h2>
+        <p>مصدر طاقة رئيسي: يتم تحويل الكربوهيدرات في الجسم إلى جلوكوز...</p>
+        <a href="https://www.example.com/carbs-benefits" target="_blank" className="read-more">قراءة المزيد</a> {/* رابط خارجي لفوائد الكربوهيدرات */}
+      </div>
 
-        <Card 
-          image='./assets/images/foodimages/Carbs1.jpg' 
-          title="الكربوهيدرات" 
-          intro="هي المصدر المفضل للجسم للحصول على الطاقة..."
-          info="من الضروري أن يحتوي نظامك الغذائي على الكربوهيدرات ولكن من الضروري أيضا التركيز في الأوقات..."
-        />
-        <Card 
-          image='./assets/images/foodimages/Carbs2.jpg' 
-          title="أهمية الكربوهيدرات" 
-          intro="مصدر طاقة رئيسي: يتم تحويل الكربوهيدرات في الجسم إلى جلوكوز..."
-          info="الكربوهيدرات تعد أحد العناصر الغذائية الأساسية التي يحتاجها الجسم..."
-        />
-        <Card 
-          image='./assets/images/foodimages/Carbs3.jpg' 
-          title="متى نتناول الكربوهيدرات؟" 
-          intro="قبل التمارين: تناول وجبة غنية بالكربوهيدرات قبل 2-3 ساعات من التمرين..."
-          info="أثناء التمارين الطويلة: في التمارين التي تدوم أكثر من ساعة..."
-        />
+      <div className="section">
+        <img className="section-image" src="./assets/images/foodimages/Carbs3.jpg" alt="متى نتناول الكربوهيدرات؟" />
+        <h2>متى نتناول الكربوهيدرات؟</h2>
+        <p>قبل التمارين: تناول وجبة غنية بالكربوهيدرات قبل 2-3 ساعات من التمرين...</p>
+        <a href="https://www.example.com/carbs-timing" target="_blank" className="read-more">قراءة المزيد</a> {/* رابط خارجي لتوقيت تناول الكربوهيدرات */}
+      </div>
 
+      <div className="section">
+        <img className="section-image" src="./assets/images/foodimages/fiber1.jpg" alt="الألياف الغذائية" />
+        <h2>الألياف الغذائية</h2>
+        <p>تعد جزءًا مهمًا من النظام الغذائي الصحي، ولها دور هام في تحسين صحة الجهاز الهضمي...</p>
+        <a href="https://www.example.com/fiber-info" target="_blank" className="read-more">قراءة المزيد</a> {/* رابط خارجي للألياف الغذائية */}
+      </div>
 
-        <Card 
-          image='./assets/images/foodimages/fiber1.jpg' 
-          title="الألياف الغذائية" 
-          intro="تعد جزءًا مهمًا من النظام الغذائي الصحي، ولها دور هام في تحسين صحة الجهاز الهضمي..."
-          info="مكونات موجودة في الأطعمة النباتية التي لا يستطيع الجهاز الهضمي هضمها بالكامل..."
-        />
-        <Card 
-          image='./assets/images/foodimages/fiber2.jpg' 
-          title="فوائد الألياف"
-          intro="تحسين صحة الجهاز الهضمي: تساعد الألياف على تعزيز حركة الأمعاء..."
-          info="الحفاظ على طاقة مستدامة: تناول الألياف مع الكربوهيدرات يساعد على إطلاق الطاقة بشكل بطيء..."
-        />
-        <Card 
-          image='./assets/images/foodimages/fiber3.jpg' 
-          title="مصادر غذائية غنية بالألياف" 
-          intro="الخضروات: السبانخ البروكلي الجزر"
-          info="الفواكه: التوت التفاح الكمثرى الحبوب الكاملة: الشوفان الأرز البني..."
-        />
-        <Card 
-  image='./assets/images/foodimages/images.jpeg' 
-  title="الألياف والحفاظ على الوزن" 
-  intro="الألياف تلعب دورًا هامًا في الحفاظ على الوزن الصحي من خلال الشعور بالشبع لفترة أطول."
-  info="تساعد الألياف في تنظيم مستويات السكر في الدم، مما يقلل من الحاجة إلى تناول الطعام بشكل متكرر. كما أن الأطعمة الغنية بالألياف منخفضة في السعرات الحرارية، مما يجعلها مثالية لمن يسعى لإنقاص الوزن."
-      />
+      <div className="section">
+        <img className="section-image" src="./assets/images/foodimages/fiber2.jpg" alt="فوائد الألياف" />
+        <h2>فوائد الألياف</h2>
+        <p>تحسين صحة الجهاز الهضمي: تساعد الألياف على تعزيز حركة الأمعاء...</p>
+        <a href="https://www.example.com/fiber-benefits" target="_blank" className="read-more">قراءة المزيد</a> {/* رابط خارجي لفوائد الألياف */}
+      </div>
+
+      <div className="section">
+        <img className="section-image" src="./assets/images/foodimages/fiber3.jpg" alt="مصادر غذائية غنية بالألياف" />
+        <h2>مصادر غذائية غنية بالألياف</h2>
+        <p>الخضروات: السبانخ البروكلي الجزر</p>
+        <a href="https://www.example.com/fiber-sources" target="_blank" className="read-more">قراءة المزيد</a> {/* رابط خارجي لمصادر الألياف */}
+      </div>
     </div>
   );
 }

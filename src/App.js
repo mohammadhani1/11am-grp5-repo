@@ -4,7 +4,7 @@ import Home from  './components/Pages/Home';
 import Login from './components/signin/Login';
 import Register from './components/signin/Register';
 import Navbar from './components/navbar/Navbar';
-import Content from './components/club/Content';
+import Clubs from './components/club/Clubs';
 import Footer from './components/footer/Footer';
 import Food from './components/Pages/Food';
 
@@ -16,7 +16,7 @@ function App() {
 <Route path='/' index element={<Home/>}/>
 <Route path='/login' element={<Login/>}/>
 <Route path='/register' element={<Register/>}/>
-<Route path='/clubs' element={<Content/>}/>
+<Route path='/clubs' element={<Clubs/>}/>
 <Route path='/Nutrition' element={<Food/>}/>
 <Route/>
 </Routes>

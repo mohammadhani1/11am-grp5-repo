@@ -1,19 +1,19 @@
 //imports
-import './cardn.css'
+import './Cardn.css'
 
 //function
 const sportPics=[
 {
-  img:"/imgs/basketball.jpg", name:"Basketball"},
-  {img:"/imgs/football.jpg", name:"Football"},
-  {img:"/imgs/handball (2).jpg",name:"Handball"},
-  {img:"/imgs/swimming.jpg",name:"Swimming"},
-  {img:"/imgs/tennis.jpg",name:"Tennis"},
-  {img:"/imgs/volleyball.jpg",name:"Volleyball"}
+  img:"./assets/images/imgs/basketball.jpg", name:"Basketball"},
+  {img:"./assets/images/imgs/football.jpg", name:"Football"},
+  {img:"./assets/images/imgs/handball (2).jpg",name:"Handball"},
+  {img:"./assets/images/imgs/swimming.jpg",name:"Swimming"},
+  {img:"./assets/images/imgs/tennis.jpg",name:"Tennis"},
+  {img:"./assets/images/imgs/volleyball.jpg",name:"Volleyball"}
 
 ];
 
-const Card=()=>{
+const Cardn=()=>{
 
 return(
   <div className="cards">
