@@ -6,6 +6,19 @@
 }
 
 .img img {
+
+    width: 50px; /* حجم الصورة */
+    height: 50px;
+    margin-left: 0px;
+    margin-right: 10px; /* مسافة بين الصورة والنص */
+    object-fit: cover; /* لتجنب تشويه الصورة */
+}
+
+.img h2 {
+    color: rgb(0, 0, 0); /* لون النص */
+    font-size: 24px; /* حجم النص */
+    margin: 0; /* إزالة الهوامش الافتراضية */
+
     width: 10%;
     height: auto;
     margin-left: 0px;
