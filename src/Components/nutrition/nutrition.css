@@ -1,6 +1,6 @@
 header{
     height: 100vh;
-    background: url("./images/photo.jpg") center center/cover no-repeat ;
+    background: url("./foodimages/photo.jpg") center center/cover no-repeat ;
     position: relative;
 }
 .content{
