@@ -1,6 +1,7 @@
 
 import "./img.css";
-const LogoImage = "/assets/images/HomePageimg.png";
+const LogoImage = "/assets/images/HomePageimg.png/LogoSport";
+
 
 const Logo=()=>{
     return(

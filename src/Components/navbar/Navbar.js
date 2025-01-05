@@ -6,8 +6,9 @@ function Navbar(){
 
 return(
     <>
-    <Logo/>
+    
     <nav dir="rtl">
+        <Logo/>
 <ul>
     <li><a href="">الصفحة الرئيسية</a></li>
     <li><a href="">التغذية</a></li>

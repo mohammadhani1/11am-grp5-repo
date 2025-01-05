@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./StyleHeader.css";
-import Logo from "./Logo";
+import Logo from "../Logo";
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
 

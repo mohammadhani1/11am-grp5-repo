@@ -15,7 +15,7 @@ function Home() {
             muted
             playsInline
             className="back-vid"
-            src="/HomePageimg/Vidintro.mp4"/>
+            src="./assets/videos/Vidintro.mp4"/>
             
         </div>
         <div className="heading-Sport">
