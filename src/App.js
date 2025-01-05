@@ -1,12 +1,12 @@
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Home from  '../src/Components/Pages/Home';
-import Login from './Components/signin/Login';
-import Register from './Components/signin/Register';
-import Navbar from './Components/navbar/Navbar';
-import Content from './Components/club/Content';
-import Footer from './Components/footer/Footer';
-import Food from './Components/Pages/Food';
+import Home from  './components/Pages/Home';
+import Login from './components/signin/Login';
+import Register from './components/signin/Register';
+import Navbar from './components/navbar/Navbar';
+import Content from './components/club/Content';
+import Footer from './components/footer/Footer';
+import Food from './components/Pages/Food';
 
 function App() {
   return (
