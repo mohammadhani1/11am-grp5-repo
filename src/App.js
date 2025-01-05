@@ -6,7 +6,8 @@ import Login from './Components/signin/Login';
 import Register from './Components/signin/Register';
 import Navbar from './Components/navbar/Navbar';
 import Content from './Components/club/Content';
-import Footer from './Components/footer/Footer'
+import Footer from './Components/footer/Footer';
+
 function App() {
   return (
 <BrowserRouter>
@@ -19,6 +20,7 @@ function App() {
 <Route/>
 </Routes>
 <Footer/>
+
 </BrowserRouter>
   );
 }
