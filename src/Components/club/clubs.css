@@ -1,32 +1,35 @@
 /* === CONTENT STYLING === */
-.f1 {
+
+.f1 {color: white;
     padding: 20px;
     max-width: 1200px;
     margin: auto;
-    background: #ffffff;
+    background: black;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
+  .city{background-color: black;}
   
   .f1 h1 {
+    color: white; 
     text-align: center;
     color: #333;
     font-size: 28px;
   }
   
   .f1 p {
-    color: #555;
+    color: white;
     line-height: 1.6;
     font-size: 16px;
   }
   
   .f1 hr {
-    border: 1px solid #ddd;
+    border: 1px solid white;
     margin: 20px 0;
   }
   
   .f1 .city {
-    color: #2a9d8f;
+    color: white;
     font-size: 20px;
     margin-bottom: 10px;
   }
@@ -46,8 +49,8 @@
     top: 20px;
     left: 20px;
     width: 200px;
-    background: #2a9d8f;
-    color: white;
+    background: black;
+    color: rgb(49, 34, 94);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -68,7 +71,7 @@
   }
   
   .sidebar a:hover {
-    color: #e76f51;
+    color: #7e39ee;
   }
   
   /* === SEARCH BOX === */
@@ -82,14 +85,14 @@
   .search-box input {
     width: 250px;
     padding: 10px;
-    border: 2px solid #2a9d8f;
+    border: 2px solid white;
     border-radius: 5px 0 0 5px;
     outline: none;
   }
   
   .search-box button {
     padding: 10px 20px;
-    background: #2a9d8f;
+    background: black;
     border: none;
     color: white;
     border-radius: 0 5px 5px 0;
@@ -98,6 +101,6 @@
   }
   
   .search-box button:hover {
-    background: #e76f51;
+    background: #030445;
   }
   
