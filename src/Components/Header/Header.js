@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./StyleHeader.css";
-import Logo from "../Logo";
+import Logo from "./Logo";
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -28,8 +28,11 @@ const Header = () => {
         {isOpen && (
         <div id="list">
             <span id="close-btn" onClick={closeNavigation}>&times;</span>
-            <ul>
+            <div className="logo">
                 <Logo/>
+                </div>
+            <ul>
+
             {menuList.map((item) => (
                 <li key={item.id}>
                 <a href="#" className={item.className}>{item.text}</a>
