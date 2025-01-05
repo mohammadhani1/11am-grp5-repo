@@ -1,9 +1,12 @@
 import React from "react";
 import './Navbar.css';
 import Login from './Login.js';
+import Logo from './Logo.js';
 function Navbar(){
 
 return(
+    <>
+    <Logo/>
     <nav dir="rtl">
 <ul>
     <li><a href="">الصفحة الرئيسية</a></li>
@@ -13,7 +16,7 @@ return(
 </ul>
 <Login/>
 </nav>
-
+</>
 );
 
 

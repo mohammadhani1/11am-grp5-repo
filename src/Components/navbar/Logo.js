@@ -1,9 +1,11 @@
-import Logos from "./LogoSport-removebg-preview.png";
+
 import "./img.css";
+const LogoImage = "/assets/images/HomePageimg.png";
+
 const Logo=()=>{
     return(
         <div className="img">
-    <img src={Logos}></img>
+    <img src={LogoImage}/>
     <h2>Next Goal</h2>
     </div>
 )
