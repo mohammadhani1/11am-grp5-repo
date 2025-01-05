@@ -1,4 +1,3 @@
-/* Style for the header container */
 .hero {
     position: relative;
     height: 100vh;
@@ -21,7 +20,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+    background: rgba(0, 0, 0, 0.5); 
     color: white;
     text-align: center;
     padding: 50px;

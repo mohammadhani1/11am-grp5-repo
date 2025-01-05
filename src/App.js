@@ -7,6 +7,7 @@ import Register from './Components/signin/Register';
 import Navbar from './Components/navbar/Navbar';
 import Content from './Components/club/Content';
 import Footer from './Components/footer/Footer';
+import Food from './Components/Pages/Food';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
 <Route path='/login' element={<Login/>}/>
 <Route path='/register' element={<Register/>}/>
 <Route path='/clubs' element={<Content/>}/>
+<Route path='/Nutrition' element={<Food/>}/>
 <Route/>
 </Routes>
 <Footer/>
