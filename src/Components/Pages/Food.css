@@ -1,0 +1,38 @@
+/* Food.css */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* المسافة بين العناصر */
+    padding: 1rem;
+    justify-content: space-between; /* توزيع العناصر بشكل مناسب */
+  }
+  
+  .Card {
+    flex: 1 1 calc(33.33% - 1rem); /* 3 بطاقات في السطر مع مسافة بينهما */
+    box-sizing: border-box;
+    min-width: 300px; /* الحد الأدنى للعرض */
+    max-width: 320px; /* الحد الأقصى للعرض */
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 12px; /* زوايا دائرية */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .Card:hover {
+    transform: translateY(-5px); /* تأثير التمرير على البطاقات */
+  }
+  
+  /* لضمان التناسب على الشاشات الأصغر */
+  @media (max-width: 768px) {
+    .Card {
+      flex: 0 1 calc(50% - 1rem); /* 2 بطاقات في السطر */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Card {
+      flex: 0 1 100%; /* بطاقة واحدة في السطر */
+    }
+  }
+  
