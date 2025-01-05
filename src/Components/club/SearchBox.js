@@ -1,18 +1,16 @@
 import React from "react";
- 
-  const SearchBox = () => {
 
-    return (
+const SearchBox = () => {
+  return (
+    <div className="search-box">
+      <form>
+        <label>
+          <input type="text" required placeholder="search" />
+          <button>Search</button>
+        </label>
+      </form>
+    </div>
+  );
+};
 
-        <div className="search-box">
-   <from>
-    <label>
-        <input type="text" required placeholder="search"/>
-        <button>search</button>
-    </label>
-   </from>
-
-        </div>
-    );
-  };
-  export default SearchBox;
+export default SearchBox;
