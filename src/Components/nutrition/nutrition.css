@@ -1,47 +1,45 @@
-header{
-    height: 100vh;
-    background: url("./foodimages/photo.jpg") center center/cover no-repeat ;
-    position: relative;
-}
 .content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 75vh;
-}
-
-.content h1{
-    font-size: 40px;
-    color:#fff ;
-}
-.content p{
-    margin: 20px 0 40px;
-    color: #fff;
-}
-
-header::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
     width: 100%;
-    background: rgba(0, 0,0, 0.6);
+    height: 100vh;
+    margin-bottom: 20px;
 }
-header * {
-    z-index: 10;
+img{
+        width:100% ;
+        height: 100vh;
+        object-fit: cover;
+}
+.foodcontent{
+        position: absolute;
+        width:50% ;
+        height: 100vh;
+        margin-right: 2rem;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        font-size: x-large;
+}
+.overllay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width:100% ;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.438);
+}
+.foodcontent button{
+        border: none;
+        color: #747474;
+        font-weight: 500;
+        padding: 10px;
+        background-color: white;
+        font-size: max(1vw,13px);
+        border-radius: 50px;
+        width: 80px;
+}
+.foodcontent button:hover{
+    background-color: rgb(242, 255, 127);
+    transition: all 0.3s ease;
 }
 
-.btn-menu{
-    display: inline-block;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 15px;
-    color: #fff;
-    border: 1px solid #fff;
-}
-
-.btn-menu:hover {
-    background: #e4b95b;
-}
