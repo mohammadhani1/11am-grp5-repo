@@ -7,6 +7,9 @@ import Navbar from './Components/navbar/Navbar';
 import Clubs from './Components/club/Clubs';
 import Footer from './Components/footer/Footer';
 import Food from './Components/Pages/Food';
+import Basketball from './Components/sports/Basketball'
+import Football from './Components/sports/Football'
+
 
 function App() {
   return (
@@ -18,6 +21,11 @@ function App() {
 <Route path='/register' element={<Register/>}/>
 <Route path='/clubs' element={<Clubs/>}/>
 <Route path='/Nutrition' element={<Food/>}/>
+<Route path='/BasketBall' element={<Basketball/>}/>
+<Route path='/Football' element={<Football/>}/>
+<Route path='/Handball' element={<Handball}/>/
+<Route path='/swimming' element={<Food/>}/>
+<Route path='/tennis' element={<Food/>}/>
 <Route/>
 </Routes>
 <Footer/>

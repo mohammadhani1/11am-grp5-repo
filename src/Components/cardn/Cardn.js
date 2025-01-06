@@ -5,7 +5,7 @@ const sportPics = [
   {
     img: "./assets/images/imgs/basketball.jpg",
     name: "Basketball",
-    link: "/about"
+    link: "/BasketBall"
   },
   {
     img: "./assets/images/imgs/football.jpg",
