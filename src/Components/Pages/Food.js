@@ -5,6 +5,7 @@ function Food() {
   return (
     <div className="container">
       <div className="section">
+    
         <img className="section-image" src="./assets/images/foodimages/protine.jpg" alt="البروتينات" />
         <h2>البروتينات</h2>
         <p>البروتينات تلعب دورًا محوريًا في الرياضة والأنشطة البدنية نظرًا لدورها في بناء العضلات، إصلاح الأنسجة التالفة، وتعزيز الأداء الرياضي ..</p>
