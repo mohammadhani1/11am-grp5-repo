@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Readex+Pro:wght@160..700&display=swap');
+.video {
+   
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .back-vid {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+
+  
+.heading-Sport {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:  "Amiri", serif;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.685);
+}
+.heading-Sport .title{
+    font-size: 5rem;
+    color: #ff0000;
+    
+}
+.heading-Sport .desc {
+    font-size: 2rem;
+    border: 1px solid #ffffff;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+
+
+  
